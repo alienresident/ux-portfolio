@@ -1,0 +1,27 @@
+# Sass Stuff #
+*.css
+*.css.map
+src/css
+
+# Temp Directory # 
+tmp
+
+# Distribution Directory # 
+dist
+
+# Node Stuff #
+node_modules
+npm-debug.log
+
+# Bower #
+bower_components
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
