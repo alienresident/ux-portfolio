@@ -85,6 +85,19 @@ $video = array(
 				'off'	 => 'Off',
 			),
 		),
+		'playsinline' => array(
+			'data-input-type' => 'onoff-switch',
+			'title'		 => 'Plays Inline',
+			'hide-title' => true,
+			'size'		 => 'span4',
+			'class'				=> 'editor-listen',
+			'data-handler'		=> 'save',
+			'default' 	 => 'off',
+			'switch-values' => array(
+				'on'	 => 'On',
+				'off'	 => 'Off',
+			),
+		),
 		'transparent_controls' => array(
 			'data-input-type' => 'onoff-switch',
 			'title'		 => 'Transparent Controls',

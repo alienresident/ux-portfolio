@@ -52,6 +52,7 @@ if(!class_exists('sm_video')) {
 					'loop' 					=> '',
 					'muted'					=> '',
 					'autoplay'				=> '',
+					'playsinline'				=> '',
 					'hide_controls'			=> '',
 					'transparent_controls'  => '',
 					'ratio'					=> '',
@@ -109,6 +110,7 @@ if(!class_exists('sm_video')) {
 				'loop' => $loop,
 				'autoplay' => $autoplay,
 				'muted' => $muted,
+				'playsinline' => $playsinline,
 			);
 
 			// define video atts
