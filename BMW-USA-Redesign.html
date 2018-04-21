@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>BMW-USA-Redesign</title>
+
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">BMW USA Redesign</h1>
+
+<p><img src="images/BMW--Logo.png" alt="BMW Roundel">
+<a href="http://bit.ly/bmw-usa">www.bmwusa.com</a><br>
+October 2015–December 2016</p>
+
+<p><img src="images/BMW--Responsive_Redesign.jpg" alt="BMW Homepage"></p>
+
+<h4 id="toc_1">Responsive Redesign Case Study</h4>
+
+<p>During my tenure at KBS, the BMWUSA website was massive digital platform undergoing a significant multi-year redesign of its design and technology to address evolving car shopping behaviors.
+This case study focuses on specific areas of the redesign where my UX leadership was involved in solving key areas of the user experience as well as improving team collaboration.</p>
+
+<h6 id="toc_2">What I Did</h6>
+
+<ul>
+<li>Created a <strong>responsive design system</strong> to be the foundation of our new platform</li>
+<li>Created a <strong>modular system</strong> to be easily and quickly updated with greater content flexibility than the current website</li>
+<li>Designed responsive modules that enabled <strong>richer experiences</strong> using <strong>video</strong>, <strong>animation</strong>, and <strong>utility interaction</strong></li>
+<li>Built <strong>repeatable modules</strong> for <strong>seamless implementation</strong> and <strong>reduced customization</strong> while <strong>creating consistency</strong> for the user</li>
+</ul>
+
+<h6 id="toc_3">Visit the <a href="http://bit.ly/bmw-usa">BMW USA</a> Site</h6>
+
+<h6 id="toc_4">Skills | Deliverables</h6>
+
+<ul>
+<li>UserTesting </li>
+<li>Sketches</li>
+<li>Wireframes </li>
+<li>Prototypes</li>
+<li>Design System</li>
+<li>Style Guide</li>
+</ul>
+
+<h6 id="toc_5">Core Team</h6>
+
+<ul>
+<li><strong>Mark Reilly</strong> UX Lead</li>
+<li><strong>Emily Saraco</strong> Visual Design</li>
+<li><strong>Ali Sajjadi</strong> Product Manager</li>
+<li><strong>Adam Bettencourt</strong> Scrum Master</li>
+<li><strong>Your Majesty</strong> Front End</li>
+<li><strong>Keerthi Dundi</strong> Back End</li>
+</ul>
+
+<h3 id="toc_6">Responsive Design System: Breakpoints</h3>
+
+<h6 id="toc_7">Approach</h6>
+
+<p>To build a foundational design system, I started by defining the breakpoints—a key ingredient of responsive design.</p>
+
+<h6 id="toc_8">Solution</h6>
+
+<p>Rather than focus on device sizes, I established six <em>T-shirt</em> sized breakpoints. These roughly corresponded to current devices but were flexible enough to accommodate future device sizes.</p>
+
+<p>Six breakpoints may seem excessive, but it allowed us greater flexibility. We didn’t need to create six different designs. The top three breakpoints shared the same orientation and aspect ratio, so we were able to scale up the <strong>L</strong> breakpoint design to fit the <strong>XL</strong> and <strong>XXL</strong> breakpoints.</p>
+
+<p>We focused our design efforts on the smallest <strong>XS</strong> <em>mobile</em> breakpoint and the <strong>L</strong> <em>desktop</em> breakpoint. These two breakpoints informed our approach to the <strong>M</strong> <em>tablet</em> breakpoint; I either adapted one of those design patterns or created a new one.</p>
+
+<p><img src="images/BMW--Breakpoints-XS-XL.jpg" alt="BMW Breakpoints">
+[caption]
+We used T-shirt sizes to refer to the six breakpoints rather than devices. Of the six breakpoints, we focused designing three of them: <strong>XS</strong> <em>320</em>, <strong>M</strong> <em>720</em>, and <strong>L</strong> <em>960</em>.</p>
+
+<p><img src="images/BMW--Breakpoints-L-XXL.jpg" alt="BMW Scaling the Design">
+[caption]
+The <strong>3</strong> largest sizes use the same design: The grid, images, and type scale up uniformly. The design at 960px scales up <strong>125%</strong> at <em>1200px</em> and then another <strong>120%</strong> at <em>1440px</em>.</p>
+
+<h3 id="toc_9">Responsive Design System: Fluid Grid</h3>
+
+<h6 id="toc_10">Problem</h6>
+
+<p>A second key ingredient of responsive design is a <strong>Fluid Grid</strong>. The existing homepage and product pages had tried to use a <strong>12</strong> column grid for their desktop viewport. Unfortunately, the developers had to add two columns to make that design work.</p>
+
+<h6 id="toc_11">The Ask</h6>
+
+<p>The designers wanted to bring back a <strong>12</strong> column grid. As it is neatly divisible by <strong>2</strong>, <strong>3</strong>, &amp; <strong>4</strong>, which gave them a lot of layout options—halves, thirds, and quarters.</p>
+
+<h6 id="toc_12">Solution</h6>
+
+<p>To simplify the design I decided to create a standard column and gutter width. Each column would be <em>72px</em> wide with a <em>8px</em> gutter. Starting with <strong>4</strong> columns at <strong>XS</strong> <em>320px</em>. We add columns as the viewport gets larger: <strong>6</strong> columns at <strong>S</strong> <em>480px</em>, <strong>9</strong> columns at <strong>M</strong> <em>720px</em>, until we reach <strong>12</strong> columns at <strong>L</strong> breakpoint <em>960px</em>. When we reach the larger breakpoints <strong>XL</strong> <em>1200px</em> and <strong>XXL</strong> <em>1440px</em>. We scale up the grid &amp; typography proportionally. This responsive fluid grid made it easier to translate patterns &amp; assets across breakpoints.</p>
+
+<h6 id="toc_13">View the CodePen <a href="http://bit.ly/bmw-grid">Demo</a> of the Grid</h6>
+
+<p><img src="images/BMW--Grid_Breakpoints_XS-L.png" alt="BMW Responsive Grid">
+[caption]
+The responsive fluid grid: when the viewport gets large enough we add columns. Starting at <strong>4</strong> columns at <em>320px</em> to a total of <strong>12</strong> columns at <em>960px</em>.</p>
+
+<p><img src="images/BMW--Font_Resizing.png" alt="BMW Table of Breakpoint"></p>
+
+<h3 id="toc_14">Module Library</h3>
+
+<h6 id="toc_15">Approach</h6>
+
+<p>To help the visual design team adjust to the modular design system, we developed an easy to use <strong>Module Library</strong> to be their <strong>Design Kit</strong>. We organized our modular library using <strong>Atomic Design</strong> principles. Building from simple atomic elements into molecules and then more complex organisms or modules.</p>
+
+<h6 id="toc_16">Solution</h6>
+
+<p>We started the module library with a rigorous content audit. We worked with a content strategist to evaluate the existing content and what was missing. We then organized the content into design patterns or modules. We defined layout options: text alignment, image placement, and dark or light themes.</p>
+
+<p>We applied global styles to each module and described how the layout would adjust at each breakpoint. We started with the smallest breakpoint and made sure we had all the content and functionality that we needed. As we went up in size and had more space, we considered progressively enhancing the modules by adding images or functionality.</p>
+
+<p>The module library reduced QA time considerably. We did an initial round of QA to make the modules functioned properly. Once they passed, we’d only need to QA them again for content.</p>
+
+<h6 id="toc_17">View the CodePen <a href="http://bit.ly/bmw-ma1">Demo</a> of a Module</h6>
+
+<p><img src="images/Atomic_Design_Icons.png" alt="Atomic Design"></p>
+
+<p>[caption]
+<strong>Atomic Design’s</strong> five stages: <em>Atoms</em>, <em>Molecules</em>, <em>Organisms</em>, <em>Templates</em>, and <em>Pages</em>.</p>
+
+<p><img src="images/Audit-Organize-Build.jpg" alt="Modular Legos"></p>
+
+<p>[caption]
+Modular design approach began with a content audit. We organized the content and established design patterns. We then used these modules to build any page.</p>
+
+<p><img src="images/BMW--BM3_L.png" alt="BMW Modules">
+<img src="images/BMW--BM3_M.png" alt="BMW Modules">
+<img src="images/BMW--BM3_XS.png" alt="BMW Modules">
+[caption]
+<strong>L</strong> <strong>M</strong> <strong>XS</strong></p>
+
+<h3 id="toc_18">Modular Design for the Homepage</h3>
+
+<h6 id="toc_19">Problem</h6>
+
+<p>The BMW USA homepage needed to support <strong>three</strong> very different narratives at different times of the year: <strong>Sales Events</strong>, <strong>Vehicle Launches</strong>, and <strong>Brand Events</strong>.</p>
+
+<h5 id="toc_20">Approach</h5>
+
+<p>For each event type, we <strong>determined</strong> the <strong>goal</strong> of the page. We created a <strong>content hierarchy</strong> that enabled the user to fulfill that goal and used our <strong>module library</strong> to build the page.</p>
+
+<p><img src="images/BMW--Sales-Event__Hierarchy.png" alt="Homepage Content Hierarchy"></p>
+
+<p><img src="images/BMW--Sales-Event__Content-Blocks.png" alt="Homepage Modular Sketch"></p>
+
+<p><img src="images/BMW--Sales-Event__Homepage.png" alt="Homepage Modules"></p>
+
+<h3 id="toc_21">Module Example: Homepage Marquee</h3>
+
+<h6 id="toc_22">Approach</h6>
+
+<p>The homepage marquee area is intended to be a singular, impactful experience. It is the standard bearer for the full site experience, and it was vital that it was consistent across devices.</p>
+
+<h6 id="toc_23">Solution</h6>
+
+<p>We wanted to make a very versatile module: One that could hold a single image, or a carousel, or a video in the background. We added options for aligning the text to the left, right, and center, allowing us to work with a broader range of photos.</p>
+
+<p>This module was designed to be on the top of the homepage beneath the main navigation. On larger screens, it was intended to be above the fold and reveal the top of next content piece.</p>
+
+<p>For desktop, I chose a wide aspect ratio of <strong>16:6</strong>. However, on mobile, it was too short. I decided to use the new <strong><picture></strong> element and create three crops to use them at different breakpoints: Allowing us to use a <strong>16:9</strong> image for small screens and a wider ratio of <strong>16:5</strong> or <em>full bleed</em> on the largest screen.</p>
+
+<p><img src="images/BMW--MA8.jpg" alt="Homepage Marquee Module"></p>
+
+<p>[caption]
+The homepage marquee in action: <strong>M</strong> <em>tablet</em>, <strong>XS</strong> <em>mobile</em>, <strong>L</strong> <em>laptop</em>, and <strong>XXL</strong> <em>desktop HD</em>. Wireframes show variations such as a carousel, text box, and text alignment options.</p>
+
+<h5 id="toc_24">The Outcomes</h5>
+
+<ul>
+<li>The modular redesign of the BMWUSA.com rolled out in <strong>phased releases</strong> in the <strong>last quarter</strong> of <strong>2016</strong> and the <strong>first quarter</strong> of <strong>2017</strong></li>
+<li>The new <strong>Adobe Experience Manager</strong> platform <strong>replaced two older platforms</strong>; the CMS for the product pages and the mobile-only site</li>
+<li><strong>Mobile traffic</strong> increased <strong>216%</strong> and <strong>surpassed desktop traffic</strong> in <strong>March 2017</strong></li>
+<li>The <strong>Series Selector</strong> on the homepage had <strong>82% increase</strong> in clicks in <strong>March 2017</strong></li>
+<li><strong>Smooth hand over</strong> of design, code, and documentation to <strong>BMW’s new agency</strong> responsible for maintaining the website</li>
+</ul>
+
+<h5 id="toc_25">My Role</h5>
+
+<ul>
+<li><strong>Lead</strong> user experience designer on <strong>BMW redesign</strong></li>
+<li>Created and documented the <strong>modular design system</strong> and wireframes for the <strong>module library</strong></li>
+<li>Designed and prototyped the <strong>responsive grid</strong></li>
+<li>Redesigned <strong>navigation</strong> to be responsive</li>
+<li>Designed the new <strong>forms</strong> and <strong>dealer locator</strong></li>
+<li><strong>Quality control</strong> for all visual and interaction design launched on the new platform</li>
+<li><strong>Oversaw</strong> all other user experience projects on the new platform</li>
+<li>Oversaw all <strong>user testing</strong> for BMW</li>
+</ul>
+
+
+
+
+</body>
+
+</html>
