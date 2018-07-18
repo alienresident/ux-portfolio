@@ -7,6 +7,7 @@ October 2015–December 2016
 
 #### Responsive Redesign Case Study
 During my tenure at KBS, the BMWUSA website was massive digital platform undergoing a significant multi-year redesign of its design and technology to address evolving car shopping behaviors.
+
 This case study focuses on specific areas of the redesign where my UX leadership was involved in solving key areas of the user experience as well as improving team collaboration.
 
 ###### What I Did
@@ -19,9 +20,9 @@ This case study focuses on specific areas of the redesign where my UX leadership
 ###### Visit the [BMW USA](http://bit.ly/bmw-usa) Site
 
 ###### Skills | Deliverables
-* UserTesting 
+* UserTesting
 * Sketches
-* Wireframes 
+* Wireframes
 * Prototypes
 * Design System
 * Style Guide
@@ -54,7 +55,7 @@ We used T-shirt sizes to refer to the six breakpoints rather than devices. Of th
 ![BMW Scaling the Design](images/BMW--Breakpoints-L-XXL.jpg)
 [caption]
 The **3** largest sizes use the same design: The grid, images, and type scale up uniformly. The design at 960px scales up **125%** at *1200px* and then another **120%** at *1440px*.
- 
+
 ### Responsive Design System: Fluid Grid###### ProblemA second key ingredient of responsive design is a **Fluid Grid**. The existing homepage and product pages had tried to use a **12** column grid for their desktop viewport. Unfortunately, the developers had to add two columns to make that design work.
 ###### The AskThe designers wanted to bring back a **12** column grid. As it is neatly divisible by **2**, **3**, & **4**, which gave them a lot of layout options—halves, thirds, and quarters.###### SolutionTo simplify the design I decided to create a standard column and gutter width. Each column would be *72px* wide with a *8px* gutter. Starting with **4** columns at **XS** *320px*. We add columns as the viewport gets larger: **6** columns at **S** *480px*, **9** columns at **M** *720px*, until we reach **12** columns at **L** breakpoint *960px*. When we reach the larger breakpoints **XL** *1200px* and **XXL** *1440px*. We scale up the grid & typography proportionally. This responsive fluid grid made it easier to translate patterns & assets across breakpoints.###### View the CodePen [Demo](http://bit.ly/bmw-grid) of the Grid
 
@@ -97,7 +98,7 @@ Modular design approach began with a content audit. We organized the content and
 **L** **M** **XS**
 
 
-  
+
 ### Modular Design for the Homepage
 
 ###### Problem
@@ -111,7 +112,7 @@ For each event type, we **determined** the **goal** of the page. We created a **
 ![Homepage Modular Sketch](images/BMW--Sales-Event__Content-Blocks.png)
 
 ![Homepage Modules](images/BMW--Sales-Event__Homepage.png)
- 
+
 
 ### Module Example: Homepage Marquee
 
@@ -129,7 +130,7 @@ For desktop, I chose a wide aspect ratio of **16:6**. However, on mobile, it was
 
 [caption]
 The homepage marquee in action: **M** *tablet*, **XS** *mobile*, **L** *laptop*, and **XXL** *desktop HD*. Wireframes show variations such as a carousel, text box, and text alignment options.
- 
+
 
 
 ##### The Outcomes
