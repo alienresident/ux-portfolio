@@ -26,11 +26,11 @@ This case study focuses on the execution phase of the project. How we took our e
 ###### Visit the [Cabinet Configurator](http://bit.ly/SBD-Cabinet)
 
 ###### Skills | Deliverables
-* User Testing 
+* User Testing
 * Sketches
-* Wireframes 
+* Wireframes
 * Prototypes
-* Design System 
+* Design System
 * Flow Diagrams
 
 ###### Core Team
@@ -64,7 +64,7 @@ Site flow map: showing how new and returning users would enter the configurator.
 
 [caption]
 Close up of the configurator section showing the essential functionality and options.
- 
+
 
 
 ### Building a Working Prototype in 10 weeks
@@ -85,8 +85,8 @@ After numerous client presentations, I’d realized that while designing for mob
 ###### View the UX for the [First Prototype](http://bit.ly/SBD-prototype-board)
 
 <video width="100%" muted playsinline>
-  <source src="videos/SBD--Configurator__Prototype.mov" type="video/mp4">
-  <img src="images/SBD--Configurator__Prototype.png">
+  <source src="videos/SBD_Configurator_1st-Prototype_1080.mp4" type="video/mp4">
+  <img src="images/SBD_Configurator_1st-Prototype.png">
 </video>
 
 [caption]
@@ -112,7 +112,7 @@ Dev prototype: Sprint 3 – 4/10/2017
 Dev prototype: Sprint 4 – 4/21/2017
 
 
- 
+
 ### Menu Iterations
 
 ###### Mobile Menu Design
@@ -128,17 +128,14 @@ Tabs made sense for the mobile design and performed better in user testing. When
 ![Menu Iterations](images/SBD--Home-Menu--Iterations.png)
 
 [caption]
-Main Menu: Mobile
-Main Menu: Prototype
-Main Menu: Version 1.0
+Main Menu: Prototype, Mobile, Version 1.0
 
 ![Menu Iterations](images/SBD--Height-Menu--Iterations.png)
-Height Menu: Prototype
-Height Menu: Version 1.0
-Height Menu: Mobile
+[caption]
+Height Menu: Prototype, Mobile, Version 1.0
 
 
- 
+
 ### Release 1.0: Configuring a Single Cabinet
 
 ###### User testing
@@ -159,14 +156,14 @@ View the [UX: Release 1.0](http://bit.ly/SBD-prototype-1-dot-0) prototype
 While user testing the prototype: we found that tabs worked better than accordions.
 
 <video width="100%" muted playsinline>
-  <source src="videos/SBD--Configurator__1-dot-0.mov" type="video/mp4">
-  <img src="images/SBD--Configurator__1-dot-0.png">
+  <source src="videos/SBD_Configurator_1.0-UX-Desktop_1080.mp4" type="video/mp4">
+  <img src="images/SBD_Configurator_1.0-UX-Desktop.png">
 </video>
 
 [caption]
 InVision prototype of the UX. It was used to help document the 1.0 release.
 
- 
+
 ### Release 1.5: Configuring Multiple Cabinets
 
 ###### My Project Space
@@ -188,8 +185,8 @@ After exploring each of these iterations, we ended up using a **wall planning vi
 
 ###### View the [UX Prototype — 1.5](http://bit.ly/SBD-prototype-1-dot-5)
 
-<video width="600" muted playsinline>
-  <source src="videos/SBD--Configurator__1-dot-5.mov" type="video/mp4">
+<video width="100%" muted playsinline>
+  <source src="videos/SBD_Configurator_1.5-UX-Desktop-1080.mp4" type="video/mp4">
   <img src="images/SBD--Configurator__1-dot-5.png">
 </video>
 
@@ -232,5 +229,3 @@ Alternative 4: Cards
 * Led **ideation workshop** with the client & the team
 * Conducted **user testing** on the existing Lista configurator, the new prototype, and the beta
 * **Oversaw** the user experience project for **another SBD brand** *Mac Tools* who are using this new configurator engine
-
-
