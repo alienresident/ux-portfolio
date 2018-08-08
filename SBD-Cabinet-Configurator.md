@@ -26,7 +26,8 @@ This case study focuses on the execution phase of the project. How we took our e
 
 ##### Visit the [Cabinet Configurator](http://bit.ly/SBD-Cabinet)
 
-###### Skills | Deliverables
+### Skills | Deliverables
+
 * User Testing
 * Sketches
 * Wireframes
@@ -34,7 +35,8 @@ This case study focuses on the execution phase of the project. How we took our e
 * Design System
 * Flow Diagrams
 
-###### Core Team
+### Core Team
+
 * **Mark Reilly** Assoc. Director UX
 * **Chase Farnum** Design Director
 * **Adam Frederick** Product Manager
